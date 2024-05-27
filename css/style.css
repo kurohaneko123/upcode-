@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+body
+{
+    background-position: top;
+    background-repeat: repeat-x;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    background-color:white;
+}
+nav {
+    float: left;
+    width: 15%;
+    height: auto;
+    background: #5D3222;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+nav ul li a
+{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+}
+.inputsearch
+{
+  width: 150px;
+  font-style: italic;
+  color: black;
+}
+  article {
+    float: left;
+    padding: 20px;
+    width: 85%;
+    background-color: #f1f1f1;  
+    height: 100%;
+  }
+  .bgi
+  {
+    background-image: url(/img/brcf2.jpg);
+  }
+  .h1
+  {
+    text-align: center;
+    
+  }
+  .lienhe
+  {
+    color: black;
+  }
+  
+  
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer {
+    text-align: center;
+    background-color:  #36160E;
+    padding: 5px;
+    color: #fdf9f8;
+    
+  }
+  table
+  {
+    border-spacing: 2mm;
+    width: 1000px;
+  }
+  @media only screen and (max-width: 740px) 
+  {
+     nav, article {
+      width: 100%;
+      height: 100%;
+    }
+  
+    header img
+    {
+      width: 100%;
+      height: 100%;
+    }
+   footer 
+   {
+    width: 100%;
+    height: 100%;
+   }
+  }
+  
+  
+  @media only screen and (max-width:1024px)
+  {
+      nav, article {
+       width: 100%;
+       height: auto;
+     }
+     header img
+     {
+       width: 100%;
+       height: 100%;
+     }
+    footer 
+    {
+     width: 100%;
+    }
+    table {
+      width: 100%;
+    }
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .sticky{
+    padding-top: 102px;
+  }
